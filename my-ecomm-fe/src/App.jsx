@@ -2,7 +2,12 @@ import { Component } from "react";
 
 class NavBar extends Component {
   render() {
-    return <h1>Hello, world!</h1>;
+    return (
+      <div>
+        <h1 className="highlight">Hello, world!</h1>
+        <p>Paragraph</p>
+      </div>
+    );
   }
 }
 
